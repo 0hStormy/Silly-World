@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "ambientocclusion": true,
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 666
+      },
+      "model": "minecraft:item/brimsword"
+    }
+  ]
+}
